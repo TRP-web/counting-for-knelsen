@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  front-end:
+    build: next-app/
+    ports:
+      - 3003:3003
+    command: npm start
+    env_file:
+      - .env
+
