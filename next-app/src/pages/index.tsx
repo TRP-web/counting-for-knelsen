@@ -31,7 +31,11 @@ const Index: React.FC = () => {
         volume={1}
         setForms={setForms}
       />
-      
+      <Form
+        type="street light small"
+        volume={0.75}
+        setForms={setForms}
+      />
       <h3 className="text-xl">Add a custum value</h3>
       <CustumValue setForms={setForms}/>
 
